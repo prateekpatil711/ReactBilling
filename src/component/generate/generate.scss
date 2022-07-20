@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding :0px;
+}
+
+.CompanyName{
+    background-color: deeppink;
+    font-family: 'Alegreya', serif;
+    padding: 20px;
+}
+
+.Invoicedet{
+    background-color: rgb(232, 232, 232);
+    box-shadow: 4px 4px 4px rgb(177, 177, 177);
+    margin: 1vw;
+    padding: 0.5vw;
+}
+.Invoice{
+    &_text{
+        padding: 1vw;
+        font-family: 'Roboto', sans-serif;
+    }
+    &_textfield{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+}
+.textfield{
+    min-width: 242px;
+}
